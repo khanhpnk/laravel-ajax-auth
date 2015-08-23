@@ -1,0 +1,22 @@
+{
+    "name": "rukan/ajax-auth",
+    "description": "Laravel wrapper help auth with ajax.",
+    "keywords": ["auth", "laravel", "ajax"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pham Ngoc Khanh",
+            "email": "phamngockhanh262@gmail.com"
+        }
+    ],
+    "require": {},
+	"require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rukan\\AjaxAuth\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
